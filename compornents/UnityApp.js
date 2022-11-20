@@ -9,6 +9,6 @@ export default function UnityApp() {
     streamingAssetsUrl: "../unity-build/StreamingAssets",
   });
   return (
-    <Unity unityProvider={unityProvider} style={{ width: 800, height: 600 }} />
+    <Unity unityProvider={unityProvider} style={{ width: "100vw", height: "100vh" }} />
   );
 }
